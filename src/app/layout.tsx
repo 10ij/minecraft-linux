@@ -1,3 +1,4 @@
+import { DocsLayout } from 'fumadocs-ui/layouts/glass'; 
 import { RootProvider } from 'fumadocs-ui/provider/next';
 import './global.css';
 import { Inter } from 'next/font/google';
