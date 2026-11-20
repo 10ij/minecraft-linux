@@ -1,0 +1,25 @@
+---
+title: Configure the input filter
+description: Force the input device mode used by the launcher.
+---
+
+You can force the launcher to accept only a specific input device type from
+the profile editor:
+
+1. Select the pencil icon to edit the profile.
+2. Expand **Advanced**.
+3. Scroll to **Environment Variables** and select **Add new Variable**.
+4. Add `MCPELAUNCHER_CLIENT_FORCED_INPUT_MODE` with one of these values:
+   - `0`: touch only
+   - `1`: mouse and keyboard only
+   - `2`: gamepad only
+5. Save the profile.
+
+The filter prevents input events that drivers expose incorrectly from
+confusing the game. It can also prevent some software devices from working.
+
+To disable the filter and pass input through unchanged, add
+`MCPELAUNCHER_CLIENT_RAW_INPUT=1` instead.
+
+The original screenshots remain available in the
+[source documentation](https://github.com/minecraft-linux/documentation_og/tree/master/src/troubleshooting/configure-input-filter).

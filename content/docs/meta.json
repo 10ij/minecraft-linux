@@ -1,0 +1,12 @@
+{
+  "title": "Documentation",
+  "pages": [
+    "index",
+    "getting_started",
+    "faq",
+    "troubleshooting",
+    "source_build",
+    "extra",
+    "external_links"
+  ]
+}

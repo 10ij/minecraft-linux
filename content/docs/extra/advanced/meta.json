@@ -1,0 +1,12 @@
+{
+  "title": "Advanced",
+  "pages": [
+    "index",
+    "debugging_ndk_libraries",
+    "jni",
+    "ndk_shims",
+    "modding-api",
+    "game-window-api",
+    "menu-api"
+  ]
+}
